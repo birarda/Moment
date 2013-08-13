@@ -6,6 +6,5 @@ Pod::Spec.new do |s|
   s.author       = { "Stephen Birarda" => "moment@birarda.com" }
   s.license      = 'MIT'
   s.source       = { :git => "https://github.com/birarda/Moment.git", :commit => "19ba65a06c46c8ed0940eb3cd4a422b4cc9318db" }
-  s.source_files = "TimeParser.*"
-  s.resources = "parseIt.ym", "tokeIt.l"
+  s.source_files = "*.{h,c,l,ym}"
 end
